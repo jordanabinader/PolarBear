@@ -26,9 +26,9 @@ const Nav = () => {
       <Link href='/' className='flex gap-2 flex-center'>
         <Image
           src="/assets/images/logo.svg"
-          alt="Promptopia Logo"
-          width={30}
-          height={30}
+          alt="PolarBear Logo"
+          width={50}
+          height={50}
           className='object-contain'
         />
         <p className='logo_text'>PolarBear</p>
@@ -39,7 +39,7 @@ const Nav = () => {
         {
           session?.user ? (
             <div className='flex gap-3 md:gap-5'> 
-              <Link href="/create-prompt"
+              <Link href="/create-argument"
               className='black_btn'>
                 Rate
               </Link>
